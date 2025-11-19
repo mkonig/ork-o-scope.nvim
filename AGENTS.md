@@ -27,6 +27,7 @@ Current tools required by lefthook:
 - pyspelling (Spell checker)
 - nixpkgs-fmt (Nix formatter)
 - lefthook (Git hooks manager)
+- cocogitto (Conventional commits)
 
 ## Plugin Architecture
 

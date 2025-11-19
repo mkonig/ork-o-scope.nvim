@@ -40,3 +40,5 @@ ababab
 mkonig
 whitespace
 grayscale
+cocogitto
+perf

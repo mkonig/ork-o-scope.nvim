@@ -11,6 +11,7 @@ let
     nixpkgs-fmt
     lefthook
     gum
+    cocogitto
   ];
 
   packageVersions = pkgs.lib.concatMapStringsSep "\n"

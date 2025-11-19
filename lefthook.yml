@@ -4,19 +4,24 @@ pre-commit:
     lua-format:
       glob: "*.lua"
       run: stylua --check {staged_files}
-    
+
     markdown-lint:
       glob: "*.md"
       run: markdownlint {staged_files}
-    
+
     markdown-spell:
       glob: "*.md"
       run: pyspelling -c .pyspelling.yml
-    
+
     nix-format:
       glob: "*.nix"
       run: nixpkgs-fmt --check {staged_files}
-    
+
     lua-check:
       glob: "*.lua"
       run: luacheck {staged_files}
+
+commit-msg:
+  commands:
+    conventional-commit:
+      run: cog verify --file {1}
