@@ -15,6 +15,12 @@ helping you stay oriented in your code.
 - Configurable scope types
 - Pre-configured with sensible default colors
 
+## Screenshots
+
+### all_scopes mode
+
+[![all_scopes mode](screenshots/all_scopes.png)](screenshots/all_scopes.png)
+
 ## Requirements
 
 - Neovim 0.9+
